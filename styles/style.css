@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Work Sans", sans-serif; */
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.content{
+    text-align: center;
+}
+.btn{
+    padding: 18px 23px 18px 23px;
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+
+background: rgb(82, 195, 3);
+border: none;
+
+}
+#hero{
+    height: 624px;
+    background-image:  linear-gradient(00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),
+     url(../assets/hero-bg.png);
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content{
+    width: 695px;
+    margin: 0 auto;}
+
+    .subtitle{
+        color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.8;
+margin-bottom: 12px;
+ }
+
+ .title{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 39px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 18px;
+ }
+
+ .description{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 17px;
+opacity: 0.7;
+ }
+
+ #card-box{
+    width: 897px;
+    margin: 100px auto;
+ }
+ .sub-title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+    margin-bottom: 14px;
+
+ }
+ .title-{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+ }
+ /* container space problem */
+  .card-container{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px;
+    text-align: center;
+
+    
+    
+} 
+    
+     
+/* Image Box */
+.image-box{
+    width: 260px;    
+}
+.image-box img{
+    width: 100%;
+}
+.shop{
+    background-color: rgba(82, 195, 3, 0.15);
+    padding: 12px 20px 12px 20px;
+    border-radius: 8px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    }
+ /* Box Content Styles */
+.items-new{
+margin-top: 24px; 
+}
+
+.pizza-style{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.button-all{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+     padding: 21px 32px 21px 32px; 
+}
+
+/* 3rd Section */
+
+ .third-section{ 
+    display: flex;
+    justify-content: space-between;
+}
+.img-styles{
+    max-width: 626px;
+    max-height: 426px;
+}
+.third-sec-content{ 
+   max-width: 565px;
+   margin: 0 auto;
+   padding: 135px 53px;
+   text-align: center;
+}
+
+.first-text{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.secnd-text{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align:center;
+margin-top: 24px;
+}
+.third-text{
+margin-top: 48px;
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 25px;
+font-weight: 800;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: center;
+box-sizing: border-box;
+border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+border-top: 1px solid rgba(16, 16, 16, 0.2);
+}
+
+.icon{
+    margin-top: 32px;
+}
+
+.img-new{
+    width: 25px;
+    height: 25px;
+    margin: 0px 16px;  
+}
+
+/* 4th section */
+
+.card{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-styl{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn-new{
+    align-items: center;
+}
+
+/* 5th section */
+
+.fifth-sec{
+    max-width: 1400px;
+    height: 550px;
+ 
+   /* border: 5px solid red; */
+   margin: 0 auto;
+   background-image: url(../assets/social-bg.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: rgba(255, 255, 255, 0.774);
+   background-blend-mode: overlay;
+
+}
